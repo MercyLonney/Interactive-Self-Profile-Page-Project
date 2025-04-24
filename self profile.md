@@ -8,7 +8,6 @@
 </head>
 <body onload="showGreeting()">
 
-<header>
 <h1>Welcome to My Profile</h1>
 <p id="greeting"></p>
 </header>
@@ -17,9 +16,9 @@
 <section id="bio">
 <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
 <h2>About Me</h2>
-<p>I’m Mercy Lonney, a tech-savvy student and freelance writer based in Nairobi. I love clean UI, creative code, and building smart solutions.</p>
+<p>I’m Mercy Lonney, a tech-savvy student based in Nairobi. I love clean UI, creative code, and building smart solutions.</p>
 <button onclick="toggleBio()">Read More</button>
-<p id="moreBio" style="display:none;">I’m currently pursuing BBIT and I’m passionate about launching a tech consultancy. I also love interior design and plants!</p>
+<p id="moreBio" style="display:none;">I’m currently pursuing BBIT and I’m passionate about launching a tech consultancy. I also love interior decor and gardening!</p>
 </section>
 
 <section class="skills">
@@ -27,7 +26,7 @@
 <ul>
 <li>HTML, CSS & JavaScript</li>
 <li>Python & SQL</li>
-<li>Academic & Technical Writing</li>
+<li>Interior decor</li>
 </ul>
 </section>
 
@@ -35,7 +34,7 @@
 <h2>Projects</h2>
 <ul>
 <li>Personal Portfolio Website</li>
-<li>Academic Writing Dashboard</li>
+<li>Interior decor Dashboard</li>
 <li>Simple Budget Tracker</li>
 </ul>
 <button onclick="alert('You clicked a project!')">Click Me</button>
